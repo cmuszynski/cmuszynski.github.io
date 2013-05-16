@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Rotonomics</title><link href="http://rotonomics.com/" rel="alternate"></link><link href="http://rotonomics.com/feeds/all.atom.xml" rel="self"></link><id>http://rotonomics.com/</id><updated>2013-05-15T12:30:00-07:00</updated><entry><title>Sabermetrics Definitions</title><link href="http://rotonomics.com/posts/2013/05/15/sabermetrics-definitions/" rel="alternate"></link><updated>2013-05-15T12:30:00-07:00</updated><author><name>Chad</name></author><id>tag:rotonomics.com,2013-05-15:posts/2013/05/15/sabermetrics-definitions/</id><summary type="html">&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;BA&lt;/span&gt;: Batting Average&lt;/strong&gt;     &lt;code&gt;(H/AB)&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;The rate at which a player gets a hit relative to his total at-bats. The average &lt;span class="caps"&gt;BA&lt;/span&gt; in 
+the Majors for 2011 was&amp;nbsp;.255.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;BABIP&lt;/span&gt;: Batting Average on Balls in Play&lt;/strong&gt;*        &lt;code&gt;(H - HR)/(AB - K - HR + SF)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;How many of a player&amp;#8217;s balls in play go for hits. &lt;span class="caps"&gt;BABIP&lt;/span&gt; removes &lt;span class="caps"&gt;HR&lt;/span&gt;, &lt;span class="caps"&gt;BB&lt;/span&gt;, and K
+&amp;#8212; outcomes not impacted by defense &amp;#8212; from the player&amp;#8217;s average. It can serve as
+a rough estimate of a player&amp;#8217;s luck, and can help predict future performance.
+The league rate stays around .300 (it was .295 in 2011). A higher &lt;span class="caps"&gt;BABIP&lt;/span&gt; often
+means a player is on the right side of luck (hits are falling in) and will
+regress. A lower number often implies a player is on the wrong side of luck and
+will improve. The metric can be used mostly for pitchers, and somewhat for&amp;nbsp;hitters.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;BB&lt;/span&gt;%: Walk percentage&lt;/strong&gt;        &lt;code&gt;(BB/PA)&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;How often a player walks relative to his total plate appearances. The average walk rate 
+across &lt;span class="caps"&gt;MLB&lt;/span&gt; in 2011 was 8.1%. Jose Bautista walked at a rate of 20.2% in 2011; Yuniesky 
+Betancourt,&amp;nbsp;2.7%.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;BB&lt;/span&gt;/9: Walks Per 9 Innings Pitched&lt;/strong&gt;   &lt;code&gt;(BB/IP)*9&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;How many batters a pitcher walks per nine innings. An excellent &lt;span class="caps"&gt;BB&lt;/span&gt;/9 is below 2. The 
+average &lt;span class="caps"&gt;BB&lt;/span&gt;/9 across &lt;span class="caps"&gt;MLB&lt;/span&gt; in 2011 was 3.1. (Roy Halladay had a &lt;span class="caps"&gt;BB&lt;/span&gt;/9 of 1.35 for&amp;nbsp;2011.)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;K/9: Strikeouts Per 9 Innings Pitched&lt;/strong&gt;   &lt;code&gt;(K/IP)*9&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;How many batters a pitcher strikes out per every 9 innings. An excellent K/9 is 9.0, or 
+a batter an inning. The average K/9 across &lt;span class="caps"&gt;MLB&lt;/span&gt; in 2011 was&amp;nbsp;7.1.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;K%: Strikeout Percentage&lt;/strong&gt;    &lt;code&gt;K/PA&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;How often a batter strikes out relative to his total plate appearances. The average K% 
+across &lt;span class="caps"&gt;MLB&lt;/span&gt; in 2011 was 18.6%. When Mark Reynolds set the single-season strikeout record 
+in 2009 with 223 whiffs, his rate was 33.7%. Placido Polanco&amp;#8217;s career K% entering 2012 
+is&amp;nbsp;8.4%.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;ERA&lt;/span&gt;: Earned Run Average&lt;/strong&gt; &lt;code&gt;9 * (Earned Runs/IP)&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;The number of earned runs a pitcher allows per nine innings pitched &amp;#8212; it does not 
+include runs which scored because of errors or passed balls. The average &lt;span class="caps"&gt;ERA&lt;/span&gt; across &lt;span class="caps"&gt;MLB&lt;/span&gt; 
+in 2011 was&amp;nbsp;3.94.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;ERA&lt;/span&gt;+: Adjusted &lt;span class="caps"&gt;ERA&lt;/span&gt;&lt;/strong&gt;  &lt;code&gt;(LgERA/ERA) * 100&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;A pitcher&amp;#8217;s &lt;span class="caps"&gt;ERA&lt;/span&gt; relative to the league-average &lt;span class="caps"&gt;ERA&lt;/span&gt; and adjusted for his home ballpark. 
+100 is league average, below 100 would be below average; over 100 is above average. A 
+150 &lt;span class="caps"&gt;ERA&lt;/span&gt;+ means the pitcher&amp;#8217;s &lt;span class="caps"&gt;ERA&lt;/span&gt; is 50% better than a league-average&amp;nbsp;pitcher.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;FIP&lt;/span&gt;: Fielding Independent Pitching&lt;/strong&gt;      &lt;code&gt;[(HR * 13) + (BB + HBP - IBB)*3 - (K *
+2)]/IP&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;A single, &lt;span class="caps"&gt;ERA&lt;/span&gt;-like number, focusing on a pitcher&amp;#8217;s K rate, &lt;span class="caps"&gt;BB&lt;/span&gt; rate and &lt;span class="caps"&gt;HR&lt;/span&gt;
+rate (strikeouts, walks and home runs are not impacted by defense). By limiting
+its focus to factors a pitcher can control, &lt;span class="caps"&gt;FIP&lt;/span&gt; demonstrates a pitcher&amp;#8217;s
+effectiveness better than &lt;span class="caps"&gt;ERA&lt;/span&gt;. The average &lt;span class="caps"&gt;FIP&lt;/span&gt; across &lt;span class="caps"&gt;MLB&lt;/span&gt; in 2011 was&amp;nbsp;3.94.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;xFIP: Expected Fielding Independent Pitching&lt;/strong&gt;        &lt;code&gt;(FB * .106) * 13 + (BB + HBP - IBB) * 3 - (K * 2))/IP&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Calculated much like &lt;span class="caps"&gt;FIP&lt;/span&gt;, but with the home run rate kept at the league-average rate of 
+10.6%. (Individual pitchers&amp;#8217; home run rates often vary year to year.) The average xFIP 
+in &lt;span class="caps"&gt;MLB&lt;/span&gt; for 2011 was&amp;nbsp;3.94. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;FRS&lt;/span&gt;: Fielding Runs&amp;nbsp;Saved&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The measure of runs saved beyond what a league-average player at that position might have 
+saved. The league average is&amp;nbsp;0.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;RC&lt;/span&gt;: Runs Created&lt;/strong&gt;    &lt;code&gt;(TB * (H + BB)) / (AB + BB)&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;An estimation, developed by Bill James, of a player&amp;#8217;s offensive contribution to his team, 
+measured in terms of runs. A precursor of wOBA&amp;nbsp;(below).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;OBP&lt;/span&gt;: On Base Percentage&lt;/strong&gt;     &lt;code&gt;(H + BB + HBP)/(AB + BB + HBP + SF)&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;The rate at which a player gets on base relative to his total plate appearances. (PAs
+include walks, hit-by-pitch, sacrifice hits and catcher interference; at-bats don&amp;#8217;t.) The 
+average on-base percentage in &lt;span class="caps"&gt;MLB&lt;/span&gt; for 2011 was&amp;nbsp;.321.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;OPS&lt;/span&gt;: On Base Percentage Plus Slugging Percentage&lt;/strong&gt;        &lt;code&gt;(OBP + SLG)&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;A single stat that estimates a player&amp;#8217;s offensive production. Note that in &lt;span class="caps"&gt;OPS&lt;/span&gt;, &lt;span class="caps"&gt;OBP&lt;/span&gt; and
+&lt;span class="caps"&gt;SLG&lt;/span&gt; are weighted evenly (they&amp;#8217;re summed), despite the two metrics being weighted
+differently themselves: &lt;span class="caps"&gt;OBP&lt;/span&gt; is calculated from plate appearances and &lt;span class="caps"&gt;SLG&lt;/span&gt; from&amp;nbsp;at-bats.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;OPS&lt;/span&gt;+: Adjusted &lt;span class="caps"&gt;OPS&lt;/span&gt;&lt;/strong&gt;      &lt;code&gt;100 * ( OBP/lgOBP + SLG/lgSLG - 1)/BPF&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;A batter&amp;#8217;s &lt;span class="caps"&gt;OPS&lt;/span&gt; relative to the league-average &lt;span class="caps"&gt;OPS&lt;/span&gt; and adjusted for his home ballpark. 100 
+is league average, anything below 100 is below average; over 100 is above average.
+Bautista held a 181 &lt;span class="caps"&gt;OPS&lt;/span&gt;+ in 2011, meaning his &lt;span class="caps"&gt;OPS&lt;/span&gt; was 81% better than a league-average&amp;nbsp;hitter.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;SLG&lt;/span&gt;: Slugging Percentage&lt;/strong&gt;        &lt;code&gt;((1B) + (2 * 2B) + (3 * 3B) + (4 * HR))/AB&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;The rate at which a player gains total bases relative to his total at-bats. The average 
+slugging percentage in &lt;span class="caps"&gt;MLB&lt;/span&gt; for 2011 was&amp;nbsp;.399.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;UZR&lt;/span&gt;: Ultimate Zone&amp;nbsp;Rating&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;How many runs above or below average a player was worth defensively. 0.0 is considered 
+average. Developed by Mitchel&amp;nbsp;Lichtman.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;WAR&lt;/span&gt;: Wins Above&amp;nbsp;Replacement&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A single statistic summarizing a player&amp;#8217;s offensive and defensive contributions. &lt;span class="caps"&gt;WAR&lt;/span&gt; 
+calculates the amount of wins a player adds to his team compared to the contribution that 
+would be expected from a replacement-level player. A replacement-level player is a player 
+who can be signed for mimimum cost, i.e. someone on the waiver wire or a Minor League free
+agent. 0.0 &lt;span class="caps"&gt;WAR&lt;/span&gt; over a season denotes a replacement-level player, 2.0 is a regular 
+starter, 5.0 is All-Star worthy and a &lt;span class="caps"&gt;WAR&lt;/span&gt; of 8 or above means the player is worthy of &lt;span class="caps"&gt;MVP&lt;/span&gt;&amp;nbsp;consideration. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;fWAR: Fangraph.com&amp;#8217;s &lt;span class="caps"&gt;WAR&lt;/span&gt; calculation, which includes &lt;span class="caps"&gt;FIP&lt;/span&gt; for pitchers, and &lt;span class="caps"&gt;UZR&lt;/span&gt; for 
+defense (see&amp;nbsp;above)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;rWAR: Baseball-Reference.com&amp;#8217;s &lt;span class="caps"&gt;WAR&lt;/span&gt; calculation, which includes defensive runs
+saved (plus-minus) when calculating pitching, TotalZone for defense, and&amp;nbsp;baserunning&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;WARP&lt;/span&gt;: Wins above replacement player according to Baseball&amp;nbsp;Prospectus&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;WHIP&lt;/span&gt;: Walks and Hits Per Innings Pitched&lt;/strong&gt;        &lt;code&gt;(W + H)/IP&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;The number of walks and hits allowed by a pitcher per inning. Essentially, this equals 
+baserunners per inning. A &lt;span class="caps"&gt;WHIP&lt;/span&gt; of 1 or below is considered elite. The average &lt;span class="caps"&gt;WHIP&lt;/span&gt; across
+&lt;span class="caps"&gt;MLB&lt;/span&gt; in 2011 was&amp;nbsp;1.32.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;wOBA: Weighted On Base&amp;nbsp;Average&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A single stat that takes into account how a player gets on base, not just that a player 
+gets on base, by assigning more value to extra-base hits. wOBA weighs each aspect of 
+hitting in proportion to its run value, unlike &lt;span class="caps"&gt;OPS&lt;/span&gt;. The average wOBA across &lt;span class="caps"&gt;MLB&lt;/span&gt; in 2011 
+was&amp;nbsp;.316.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;WPA&lt;/span&gt;: Win Probability&amp;nbsp;Added&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A calculation of how a player affects his team&amp;#8217;s win expectancy from play to play, over 
+the course of a game. For example, a player who homers in a late-and-close situation will 
+have a higher &lt;span class="caps"&gt;WPA&lt;/span&gt; than one who strikes&amp;nbsp;out.&lt;/p&gt;</summary><category term="sabermetrics"></category></entry></feed>

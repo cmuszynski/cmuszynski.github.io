@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Author: Chad - Rotonomics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="http://rotonomics.com/theme/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+  <link href="http://rotonomics.com/theme/css/bootstrap-responsive.css" rel="stylesheet" type="text/css"/>
+  <link href="http://rotonomics.com/theme/css/main.css" rel="stylesheet" type="text/css"/>
+  <link href="http://rotonomics.com/theme/css/pygment.css" rel="stylesheet" type="text/css"/>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:300|Kreon:700|Bevan|Carrois+Gothic+SC|Vollkorn:400italic' rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet" type="text/css"/>
+    
+               <link href="http://rotonomics.com/posts/2013/05/15/sabermetrics-definitions/" rel="bookmark"/>
+      
+
+  
+  <!--[if lt IE 9]>
+    <script src="https://raw.github.com/aFarkas/html5shiv/master/dist/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<!--
+relapse - a Pelican theme using Bootstrap 
+Copyright (c) 2012 Warren Moore
+https://github.com/wamonite/relapse
+-->
+<body>
+
+<!-- Header -->
+<header><div class="container">
+<h1 class="page-header"><a href="http://rotonomics.com/index.html">Rotonomics</a>
+</h1>
+</div></header>
+<!-- /Header -->
+
+<!-- Body -->
+<section id="body"><div class="container">
+
+<!-- Nav bar -->
+<div class="row"><div class="span12">
+<nav class="navbar"><div class="navbar-inner">
+<ul class="nav">
+  <li><a href="http://rotonomics.com/index.html">Home</a></li>
+  
+    
+  
+</ul>
+</div></nav>
+</div></div>
+<!-- /Nav bar -->
+
+<!-- Main block -->
+<div class="row">
+
+<!-- Content --> 
+<div class="span9">
+<h3 class="well well-small">Author: Chad</h3>
+
+
+            <article>
+      <h1><a href="http://rotonomics.com/posts/2013/05/15/sabermetrics-definitions/" rel="bookmark">Sabermetrics&nbsp;Definitions</a></h1>
+      
+      <p><strong><span class="caps">BA</span>: Batting Average</strong>     <code>(H/AB)</code> </p>
+<p>The rate at which a player gets a hit relative to his total at-bats. The average <span class="caps">BA</span> in 
+the Majors for 2011 was&nbsp;.255.</p>
+<p><strong><span class="caps">BABIP</span>: Batting Average on Balls in Play</strong>*        <code>(H - HR)/(AB - K - HR + SF)</code></p>
+<p>How many of a player&#8217;s balls in play go for hits. <span class="caps">BABIP</span> removes <span class="caps">HR</span>, <span class="caps">BB</span>, and K
+&#8212; outcomes not impacted by defense &#8212; from the player&#8217;s average. It can serve as
+a rough estimate of a player&#8217;s luck, and can help predict future performance.
+The league rate stays around .300 (it was .295 in 2011). A higher <span class="caps">BABIP</span> often
+means a player is on the right side of luck (hits are falling in) and will
+regress. A lower number often implies a player is on the wrong side of luck and
+will improve. The metric can be used mostly for pitchers, and somewhat for&nbsp;hitters.</p>
+<p><strong><span class="caps">BB</span>%: Walk percentage</strong>        <code>(BB/PA)</code> </p>
+<p>How often a player walks relative to his total plate appearances. The average walk rate 
+across <span class="caps">MLB</span> in 2011 was 8.1%. Jose Bautista walked at a rate of 20.2% in 2011; Yuniesky 
+Betancourt,&nbsp;2.7%.</p>
+<p><strong><span class="caps">BB</span>/9: Walks Per 9 Innings Pitched</strong>   <code>(BB/IP)*9</code> </p>
+<p>How many batters a pitcher walks per nine innings. An excellent <span class="caps">BB</span>/9 is below 2. The 
+average <span class="caps">BB</span>/9 across <span class="caps">MLB</span> in 2011 was 3.1. (Roy Halladay had a <span class="caps">BB</span>/9 of 1.35 for&nbsp;2011.)</p>
+<p><strong>K/9: Strikeouts Per 9 Innings Pitched</strong>   <code>(K/IP)*9</code> </p>
+<p>How many batters a pitcher strikes out per every 9 innings. An excellent K/9 is 9.0, or 
+a batter an inning. The average K/9 across <span class="caps">MLB</span> in 2011 was&nbsp;7.1.</p>
+<p><strong>K%: Strikeout Percentage</strong>    <code>K/PA</code> </p>
+<p>How often a batter strikes out relative to his total plate appearances. The average K% 
+across <span class="caps">MLB</span> in 2011 was 18.6%. When Mark Reynolds set the single-season strikeout record 
+in 2009 with 223 whiffs, his rate was 33.7%. Placido Polanco&#8217;s career K% entering 2012 
+is&nbsp;8.4%.</p>
+<p><strong><span class="caps">ERA</span>: Earned Run Average</strong> <code>9 * (Earned Runs/IP)</code> </p>
+<p>The number of earned runs a pitcher allows per nine innings pitched &#8212; it does not 
+include runs which scored because of errors or passed balls. The average <span class="caps">ERA</span> across <span class="caps">MLB</span> 
+in 2011 was&nbsp;3.94.</p>
+<p><strong><span class="caps">ERA</span>+: Adjusted <span class="caps">ERA</span></strong>  <code>(LgERA/ERA) * 100</code> </p>
+<p>A pitcher&#8217;s <span class="caps">ERA</span> relative to the league-average <span class="caps">ERA</span> and adjusted for his home ballpark. 
+100 is league average, below 100 would be below average; over 100 is above average. A 
+150 <span class="caps">ERA</span>+ means the pitcher&#8217;s <span class="caps">ERA</span> is 50% better than a league-average&nbsp;pitcher.</p>
+<p><strong><span class="caps">FIP</span>: Fielding Independent Pitching</strong>      <code>[(HR * 13) + (BB + HBP - IBB)*3 - (K *
+2)]/IP</code> </p>
+<p>A single, <span class="caps">ERA</span>-like number, focusing on a pitcher&#8217;s K rate, <span class="caps">BB</span> rate and <span class="caps">HR</span>
+rate (strikeouts, walks and home runs are not impacted by defense). By limiting
+its focus to factors a pitcher can control, <span class="caps">FIP</span> demonstrates a pitcher&#8217;s
+effectiveness better than <span class="caps">ERA</span>. The average <span class="caps">FIP</span> across <span class="caps">MLB</span> in 2011 was&nbsp;3.94.</p>
+<p><strong>xFIP: Expected Fielding Independent Pitching</strong>        <code>(FB * .106) * 13 + (BB + HBP - IBB) * 3 - (K * 2))/IP</code></p>
+<p>Calculated much like <span class="caps">FIP</span>, but with the home run rate kept at the league-average rate of 
+10.6%. (Individual pitchers&#8217; home run rates often vary year to year.) The average xFIP 
+in <span class="caps">MLB</span> for 2011 was&nbsp;3.94. </p>
+<p><strong><span class="caps">FRS</span>: Fielding Runs&nbsp;Saved</strong></p>
+<p>The measure of runs saved beyond what a league-average player at that position might have 
+saved. The league average is&nbsp;0.</p>
+<p><strong><span class="caps">RC</span>: Runs Created</strong>    <code>(TB * (H + BB)) / (AB + BB)</code> </p>
+<p>An estimation, developed by Bill James, of a player&#8217;s offensive contribution to his team, 
+measured in terms of runs. A precursor of wOBA&nbsp;(below).</p>
+<p><strong><span class="caps">OBP</span>: On Base Percentage</strong>     <code>(H + BB + HBP)/(AB + BB + HBP + SF)</code> </p>
+<p>The rate at which a player gets on base relative to his total plate appearances. (PAs
+include walks, hit-by-pitch, sacrifice hits and catcher interference; at-bats don&#8217;t.) The 
+average on-base percentage in <span class="caps">MLB</span> for 2011 was&nbsp;.321.</p>
+<p><strong><span class="caps">OPS</span>: On Base Percentage Plus Slugging Percentage</strong>        <code>(OBP + SLG)</code> </p>
+<p>A single stat that estimates a player&#8217;s offensive production. Note that in <span class="caps">OPS</span>, <span class="caps">OBP</span> and
+<span class="caps">SLG</span> are weighted evenly (they&#8217;re summed), despite the two metrics being weighted
+differently themselves: <span class="caps">OBP</span> is calculated from plate appearances and <span class="caps">SLG</span> from&nbsp;at-bats.</p>
+<p><strong><span class="caps">OPS</span>+: Adjusted <span class="caps">OPS</span></strong>      <code>100 * ( OBP/lgOBP + SLG/lgSLG - 1)/BPF</code> </p>
+<p>A batter&#8217;s <span class="caps">OPS</span> relative to the league-average <span class="caps">OPS</span> and adjusted for his home ballpark. 100 
+is league average, anything below 100 is below average; over 100 is above average.
+Bautista held a 181 <span class="caps">OPS</span>+ in 2011, meaning his <span class="caps">OPS</span> was 81% better than a league-average&nbsp;hitter.</p>
+<p><strong><span class="caps">SLG</span>: Slugging Percentage</strong>        <code>((1B) + (2 * 2B) + (3 * 3B) + (4 * HR))/AB</code> </p>
+<p>The rate at which a player gains total bases relative to his total at-bats. The average 
+slugging percentage in <span class="caps">MLB</span> for 2011 was&nbsp;.399.</p>
+<p><strong><span class="caps">UZR</span>: Ultimate Zone&nbsp;Rating</strong></p>
+<p>How many runs above or below average a player was worth defensively. 0.0 is considered 
+average. Developed by Mitchel&nbsp;Lichtman.</p>
+<p><strong><span class="caps">WAR</span>: Wins Above&nbsp;Replacement</strong></p>
+<p>A single statistic summarizing a player&#8217;s offensive and defensive contributions. <span class="caps">WAR</span> 
+calculates the amount of wins a player adds to his team compared to the contribution that 
+would be expected from a replacement-level player. A replacement-level player is a player 
+who can be signed for mimimum cost, i.e. someone on the waiver wire or a Minor League free
+agent. 0.0 <span class="caps">WAR</span> over a season denotes a replacement-level player, 2.0 is a regular 
+starter, 5.0 is All-Star worthy and a <span class="caps">WAR</span> of 8 or above means the player is worthy of <span class="caps">MVP</span>&nbsp;consideration. </p>
+<p><strong>fWAR: Fangraph.com&#8217;s <span class="caps">WAR</span> calculation, which includes <span class="caps">FIP</span> for pitchers, and <span class="caps">UZR</span> for 
+defense (see&nbsp;above)</strong></p>
+<p><strong>rWAR: Baseball-Reference.com&#8217;s <span class="caps">WAR</span> calculation, which includes defensive runs
+saved (plus-minus) when calculating pitching, TotalZone for defense, and&nbsp;baserunning</strong></p>
+<p><strong><span class="caps">WARP</span>: Wins above replacement player according to Baseball&nbsp;Prospectus</strong></p>
+<p><strong><span class="caps">WHIP</span>: Walks and Hits Per Innings Pitched</strong>        <code>(W + H)/IP</code> </p>
+<p>The number of walks and hits allowed by a pitcher per inning. Essentially, this equals 
+baserunners per inning. A <span class="caps">WHIP</span> of 1 or below is considered elite. The average <span class="caps">WHIP</span> across
+<span class="caps">MLB</span> in 2011 was&nbsp;1.32.</p>
+<p><strong>wOBA: Weighted On Base&nbsp;Average</strong></p>
+<p>A single stat that takes into account how a player gets on base, not just that a player 
+gets on base, by assigning more value to extra-base hits. wOBA weighs each aspect of 
+hitting in proportion to its run value, unlike <span class="caps">OPS</span>. The average wOBA across <span class="caps">MLB</span> in 2011 
+was&nbsp;.316.</p>
+<p><strong><span class="caps">WPA</span>: Win Probability&nbsp;Added</strong></p>
+<p>A calculation of how a player affects his team&#8217;s win expectancy from play to play, over 
+the course of a game. For example, a player who homers in a late-and-close situation will 
+have a higher <span class="caps">WPA</span> than one who strikes&nbsp;out.</p>
+      
+      <p class="info">
+      Posted Wed 15 May 2013
+ by <a class="url fn" href="http://rotonomics.com/author/chad.html">Chad</a>
+in <a href="http://rotonomics.com/category/stats.html">stats</a>
+(<a href="http://rotonomics.com/tag/sabermetrics.html">sabermetrics</a>)      </p>
+      
+            </article>
+      
+            
+      
+
+</div>
+<!-- /Content -->
+
+<!-- Side bar -->
+<nav class="span3">
+
+<h2>Categories</h2>
+<ul class="nav nav-pills nav-stacked">
+  <li ><a href="http://rotonomics.com/category/stats.html">stats</a></li>
+</ul>
+
+<h2>Links</h2>
+<ul class="nav nav-pills nav-stacked">
+  <li><a href="http://getpelican.com/">Pelican</a></li>
+  <li><a href="http://python.org/">Python.org</a></li>
+  <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+  <li><a href="#">You can modify those links in your config file</a></li>
+</ul>
+
+<h2>Social</h2>
+<ul class="nav nav-pills nav-stacked">
+    
+    <li><a href="#">You can add links in your config file</a></li>
+    <li><a href="#">Another social link</a></li>
+  </ul>
+
+</nav>
+<!-- /Side bar -->
+
+</div>
+<!-- /Main block -->
+
+<!-- Footer -->
+<div class="row"><div class="span12">
+<footer><small>
+Built using <a href="http://pelican.notmyidea.org/">Pelican</a>, the 
+<a href="https://github.com/wamonite/relapse">relapse</a> theme and 
+<a href="http://twitter.github.com/bootstrap">Bootstrap</a>.
+</small></footer>
+</div></div>
+<!-- /Footer -->
+
+</div></section>
+<!-- /Body -->
+
+<script src="http://rotonomics.com/theme/js/jquery.js"></script>
+<script src="http://rotonomics.com/theme/js/bootstrap.js"></script>
+  
+
+</body>
+</html>
